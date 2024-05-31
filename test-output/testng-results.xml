@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-31T17:18:30 IST" name="Suite" finished-at="2024-05-31T17:18:52 IST" duration-ms="21732">
+    <groups>
+    </groups>
+    <test started-at="2024-05-31T17:18:30 IST" name="Test" finished-at="2024-05-31T17:18:52 IST" duration-ms="21732">
+      <class name="com.ecom.testClass.HomePageTest">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.ecom.testClass.HomePageTest@21e360a]" started-at="2024-05-31T17:18:30 IST" name="setupBrowser" finished-at="2024-05-31T17:18:48 IST" duration-ms="17591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="VerifySerchBox()[pri:0, instance:com.ecom.testClass.HomePageTest@21e360a]" started-at="2024-05-31T17:18:48 IST" name="VerifySerchBox" finished-at="2024-05-31T17:18:51 IST" duration-ms="3021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySerchBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecom.testClass.HomePageTest@21e360a]" started-at="2024-05-31T17:18:51 IST" name="tearDown" finished-at="2024-05-31T17:18:52 IST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecom.testClass.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
