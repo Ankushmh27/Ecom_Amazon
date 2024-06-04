@@ -5,8 +5,8 @@
     <classes>
       <class name="com.ecom.testClass.HomePageTest">
         <methods>
-          <include name="VerifySerchBox"/>
           <include name="setupBrowser"/>
+          <include name="VerifyRibben"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.ecom.testClass.HomePageTest -->
