@@ -47,16 +47,29 @@
 			<artifactId>poi</artifactId>
 			<version>5.2.5</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin 
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.2.5</version>
+</dependency>-->
+
   </dependencies>
 
   <build>
     <pluginManagement>
       <plugins>
+		  
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>
         </plugin>
         <plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin-plugin</artifactId>
+          <version>3${maven.compiler.target}</version>
+		</plugin>      
+		 <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
